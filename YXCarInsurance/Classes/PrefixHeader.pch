@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  YXCarInsurance
+//
+//  Created by Lingxg on 2018/5/23.
+//  Copyright © 2018年 Lingxg. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+/** 1. Log日志*/
+#ifdef DEBUG
+#define YXLog(content, ...) NSLog((@"[%s -> %d]: " content), __FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+#define YXLog(...)
+#endif
+
+/** 2. 屏幕宽高*/
+#define kMainScreenHeight  [UIScreen mainScreen].bounds.size.height
+#define kMainScreenWidth   [UIScreen mainScreen].bounds.size.width
+
+/** 3. self*/
+#define WeakSelf(type)  __weak typeof(type) weak##type = type;
+#define StrongSelf(type)  __strong typeof(type) type = weak##type;
+
+/** 4. 三原色*/
+#define YXColor(r, g, b, a)  [UIColor colorWithRed:((r) / 255.0) green:((g) / 255.0) blue:((b) / 255.0) alpha:(a)]
+
+/** 5. 路径*/
+#define kPathTemp NSTemporaryDirectory()
+#define kPathDocument [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject]
+#define kPathCache [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject]
+
+
+#endif /* PrefixHeader_pch */
