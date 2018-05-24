@@ -13,6 +13,12 @@
 		40E5FA5220B55F0000BAB556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E5FA5020B55F0000BAB556 /* LaunchScreen.storyboard */; };
 		40E5FA5520B55F0000BAB556 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E5FA5420B55F0000BAB556 /* main.m */; };
 		40ED4BEB20B65AAF00093728 /* YXHttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ED4BEA20B65AAF00093728 /* YXHttpUtil.m */; };
+		40ED4BF220B6678F00093728 /* MBProgressHUD+YX.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ED4BF120B6678F00093728 /* MBProgressHUD+YX.m */; };
+		40ED4C0220B668D700093728 /* UILabel+YX.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ED4C0120B668D700093728 /* UILabel+YX.m */; };
+		40ED4C0920B6695100093728 /* UIView+YX.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ED4C0820B6695100093728 /* UIView+YX.m */; };
+		40ED4C0C20B669F300093728 /* UINavigationBar+YX.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ED4C0B20B669F300093728 /* UINavigationBar+YX.m */; };
+		40ED4C0F20B6A05700093728 /* YXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ED4C0E20B6A05700093728 /* YXBaseViewController.m */; };
+		40ED4C1220B6A4A000093728 /* YXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ED4C1120B6A4A000093728 /* YXWebViewController.m */; };
 		8B8DB1AA7E09A7B2DB77FFF0 /* libPods-YXCarInsurance.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F6521E1DD4D08D9E2C384A /* libPods-YXCarInsurance.a */; };
 /* End PBXBuildFile section */
 
@@ -45,9 +51,21 @@
 		40E5FA5A20B55F0000BAB556 /* YXCarInsuranceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXCarInsuranceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E5FA6520B55F0000BAB556 /* YXCarInsuranceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXCarInsuranceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E5FA8720B56F5500BAB556 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		40ED4BE820B6595400093728 /* ThirtyPatiesHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirtyPatiesHeader.h; sourceTree = "<group>"; };
 		40ED4BE920B65AAF00093728 /* YXHttpUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXHttpUtil.h; sourceTree = "<group>"; };
 		40ED4BEA20B65AAF00093728 /* YXHttpUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXHttpUtil.m; sourceTree = "<group>"; };
+		40ED4BF020B6678F00093728 /* MBProgressHUD+YX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+YX.h"; sourceTree = "<group>"; };
+		40ED4BF120B6678F00093728 /* MBProgressHUD+YX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+YX.m"; sourceTree = "<group>"; };
+		40ED4C0020B668D700093728 /* UILabel+YX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+YX.h"; sourceTree = "<group>"; };
+		40ED4C0120B668D700093728 /* UILabel+YX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YX.m"; sourceTree = "<group>"; };
+		40ED4C0320B6690800093728 /* YXCategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXCategoryHeader.h; sourceTree = "<group>"; };
+		40ED4C0720B6695100093728 /* UIView+YX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YX.h"; sourceTree = "<group>"; };
+		40ED4C0820B6695100093728 /* UIView+YX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YX.m"; sourceTree = "<group>"; };
+		40ED4C0A20B669F300093728 /* UINavigationBar+YX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+YX.h"; sourceTree = "<group>"; };
+		40ED4C0B20B669F300093728 /* UINavigationBar+YX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+YX.m"; sourceTree = "<group>"; };
+		40ED4C0D20B6A05700093728 /* YXBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXBaseViewController.h; sourceTree = "<group>"; };
+		40ED4C0E20B6A05700093728 /* YXBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXBaseViewController.m; sourceTree = "<group>"; };
+		40ED4C1020B6A4A000093728 /* YXWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXWebViewController.h; sourceTree = "<group>"; };
+		40ED4C1120B6A4A000093728 /* YXWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXWebViewController.m; sourceTree = "<group>"; };
 		59F6521E1DD4D08D9E2C384A /* libPods-YXCarInsurance.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YXCarInsurance.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB8A11CEBB4087EF627897C4 /* Pods-YXCarInsurance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXCarInsurance.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXCarInsurance/Pods-YXCarInsurance.release.xcconfig"; sourceTree = "<group>"; };
 		E0B27CB044C686B977BF279A /* Pods-YXCarInsurance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXCarInsurance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YXCarInsurance/Pods-YXCarInsurance.debug.xcconfig"; sourceTree = "<group>"; };
@@ -152,6 +170,7 @@
 		40ED4BD920B656ED00093728 /* OperationModules */ = {
 			isa = PBXGroup;
 			children = (
+				40ED4BEE20B665C800093728 /* Base */,
 				40ED4BDB20B6570900093728 /* 帮你比价 */,
 				40ED4BDC20B6570900093728 /* 汽车保险 */,
 				40ED4BDA20B6570900093728 /* 续保提醒 */,
@@ -191,7 +210,8 @@
 		40ED4BDE20B6573C00093728 /* BasicModules */ = {
 			isa = PBXGroup;
 			children = (
-				40ED4BE820B6595400093728 /* ThirtyPatiesHeader.h */,
+				40ED4BF320B6687400093728 /* Category */,
+				40ED4BEF20B665D900093728 /* MBProgress */,
 				40ED4BE720B658F400093728 /* Security */,
 				40ED4BE620B658CE00093728 /* Refresh */,
 				40ED4BDF20B6583A00093728 /* Network */,
@@ -220,6 +240,40 @@
 			children = (
 			);
 			path = Security;
+			sourceTree = "<group>";
+		};
+		40ED4BEE20B665C800093728 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				40ED4C0D20B6A05700093728 /* YXBaseViewController.h */,
+				40ED4C0E20B6A05700093728 /* YXBaseViewController.m */,
+				40ED4C1020B6A4A000093728 /* YXWebViewController.h */,
+				40ED4C1120B6A4A000093728 /* YXWebViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		40ED4BEF20B665D900093728 /* MBProgress */ = {
+			isa = PBXGroup;
+			children = (
+				40ED4BF020B6678F00093728 /* MBProgressHUD+YX.h */,
+				40ED4BF120B6678F00093728 /* MBProgressHUD+YX.m */,
+			);
+			path = MBProgress;
+			sourceTree = "<group>";
+		};
+		40ED4BF320B6687400093728 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				40ED4C0320B6690800093728 /* YXCategoryHeader.h */,
+				40ED4C0020B668D700093728 /* UILabel+YX.h */,
+				40ED4C0120B668D700093728 /* UILabel+YX.m */,
+				40ED4C0720B6695100093728 /* UIView+YX.h */,
+				40ED4C0820B6695100093728 /* UIView+YX.m */,
+				40ED4C0A20B669F300093728 /* UINavigationBar+YX.h */,
+				40ED4C0B20B669F300093728 /* UINavigationBar+YX.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		D223C4F0F472452D0F499D4F /* Frameworks */ = {
@@ -404,8 +458,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40ED4C0C20B669F300093728 /* UINavigationBar+YX.m in Sources */,
 				40ED4BEB20B65AAF00093728 /* YXHttpUtil.m in Sources */,
+				40ED4C0920B6695100093728 /* UIView+YX.m in Sources */,
+				40ED4C1220B6A4A000093728 /* YXWebViewController.m in Sources */,
+				40ED4C0220B668D700093728 /* UILabel+YX.m in Sources */,
+				40ED4C0F20B6A05700093728 /* YXBaseViewController.m in Sources */,
 				40E5FA5520B55F0000BAB556 /* main.m in Sources */,
+				40ED4BF220B6678F00093728 /* MBProgressHUD+YX.m in Sources */,
 				40E5FA4720B55F0000BAB556 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
