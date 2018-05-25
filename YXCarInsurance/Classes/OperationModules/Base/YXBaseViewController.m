@@ -7,6 +7,7 @@
 //
 
 #import "YXBaseViewController.h"
+#import <Masonry.h>
 
 @interface YXBaseViewController ()
 
@@ -16,8 +17,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self createScrollView];
 }
+
+-(void)createScrollView
+{
+    self.view.backgroundColor =[UIColor whiteColor];
+    UIScrollView * scrollView = [[UIScrollView alloc] init];
+    scrollView.showsHorizontalScrollIndicator = NO;
+    scrollView.showsVerticalScrollIndicator = NO;
+    scrollView.userInteractionEnabled =YES;
+    [self.view addSubview:scrollView];
+    self.scrollView =scrollView;
+    
+    [scrollView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(scrollView.superview);
+    }];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

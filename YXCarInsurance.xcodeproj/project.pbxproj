@@ -12,6 +12,8 @@
 		40E5FA4F20B55F0000BAB556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E5FA4E20B55F0000BAB556 /* Assets.xcassets */; };
 		40E5FA5220B55F0000BAB556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E5FA5020B55F0000BAB556 /* LaunchScreen.storyboard */; };
 		40E5FA5520B55F0000BAB556 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E5FA5420B55F0000BAB556 /* main.m */; };
+		40ECC0F620B79FC000218D68 /* GlobalConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ECC0F520B79FC000218D68 /* GlobalConst.m */; };
+		40ECC0FB20B7A7E500218D68 /* YXCommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ECC0FA20B7A7E500218D68 /* YXCommonUtil.m */; };
 		40ED4BEB20B65AAF00093728 /* YXHttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ED4BEA20B65AAF00093728 /* YXHttpUtil.m */; };
 		40ED4BF220B6678F00093728 /* MBProgressHUD+YX.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ED4BF120B6678F00093728 /* MBProgressHUD+YX.m */; };
 		40ED4C0220B668D700093728 /* UILabel+YX.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ED4C0120B668D700093728 /* UILabel+YX.m */; };
@@ -19,6 +21,11 @@
 		40ED4C0C20B669F300093728 /* UINavigationBar+YX.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ED4C0B20B669F300093728 /* UINavigationBar+YX.m */; };
 		40ED4C0F20B6A05700093728 /* YXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ED4C0E20B6A05700093728 /* YXBaseViewController.m */; };
 		40ED4C1220B6A4A000093728 /* YXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ED4C1120B6A4A000093728 /* YXWebViewController.m */; };
+		40ED4C1520B6BFD200093728 /* CarInsuranceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ED4C1420B6BFD200093728 /* CarInsuranceViewController.m */; };
+		40ED4C1820B6BFEA00093728 /* PriceCompareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ED4C1720B6BFEA00093728 /* PriceCompareViewController.m */; };
+		40ED4C1B20B6C00E00093728 /* InsuranceRemindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ED4C1A20B6C00E00093728 /* InsuranceRemindViewController.m */; };
+		40ED4C1E20B6C01B00093728 /* AboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ED4C1D20B6C01B00093728 /* AboutMeViewController.m */; };
+		40ED4C2120B6C15700093728 /* YXTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ED4C2020B6C15700093728 /* YXTabBarViewController.m */; };
 		8B8DB1AA7E09A7B2DB77FFF0 /* libPods-YXCarInsurance.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F6521E1DD4D08D9E2C384A /* libPods-YXCarInsurance.a */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +58,10 @@
 		40E5FA5A20B55F0000BAB556 /* YXCarInsuranceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXCarInsuranceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E5FA6520B55F0000BAB556 /* YXCarInsuranceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXCarInsuranceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E5FA8720B56F5500BAB556 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		40ECC0F420B79FC000218D68 /* GlobalConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalConst.h; sourceTree = "<group>"; };
+		40ECC0F520B79FC000218D68 /* GlobalConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobalConst.m; sourceTree = "<group>"; };
+		40ECC0F920B7A7E500218D68 /* YXCommonUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXCommonUtil.h; sourceTree = "<group>"; };
+		40ECC0FA20B7A7E500218D68 /* YXCommonUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXCommonUtil.m; sourceTree = "<group>"; };
 		40ED4BE920B65AAF00093728 /* YXHttpUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXHttpUtil.h; sourceTree = "<group>"; };
 		40ED4BEA20B65AAF00093728 /* YXHttpUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXHttpUtil.m; sourceTree = "<group>"; };
 		40ED4BF020B6678F00093728 /* MBProgressHUD+YX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+YX.h"; sourceTree = "<group>"; };
@@ -66,6 +77,16 @@
 		40ED4C0E20B6A05700093728 /* YXBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXBaseViewController.m; sourceTree = "<group>"; };
 		40ED4C1020B6A4A000093728 /* YXWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXWebViewController.h; sourceTree = "<group>"; };
 		40ED4C1120B6A4A000093728 /* YXWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXWebViewController.m; sourceTree = "<group>"; };
+		40ED4C1320B6BFD200093728 /* CarInsuranceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarInsuranceViewController.h; sourceTree = "<group>"; };
+		40ED4C1420B6BFD200093728 /* CarInsuranceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarInsuranceViewController.m; sourceTree = "<group>"; };
+		40ED4C1620B6BFEA00093728 /* PriceCompareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriceCompareViewController.h; sourceTree = "<group>"; };
+		40ED4C1720B6BFEA00093728 /* PriceCompareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriceCompareViewController.m; sourceTree = "<group>"; };
+		40ED4C1920B6C00E00093728 /* InsuranceRemindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsuranceRemindViewController.h; sourceTree = "<group>"; };
+		40ED4C1A20B6C00E00093728 /* InsuranceRemindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsuranceRemindViewController.m; sourceTree = "<group>"; };
+		40ED4C1C20B6C01B00093728 /* AboutMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutMeViewController.h; sourceTree = "<group>"; };
+		40ED4C1D20B6C01B00093728 /* AboutMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutMeViewController.m; sourceTree = "<group>"; };
+		40ED4C1F20B6C15700093728 /* YXTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXTabBarViewController.h; sourceTree = "<group>"; };
+		40ED4C2020B6C15700093728 /* YXTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXTabBarViewController.m; sourceTree = "<group>"; };
 		59F6521E1DD4D08D9E2C384A /* libPods-YXCarInsurance.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YXCarInsurance.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB8A11CEBB4087EF627897C4 /* Pods-YXCarInsurance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXCarInsurance.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXCarInsurance/Pods-YXCarInsurance.release.xcconfig"; sourceTree = "<group>"; };
 		E0B27CB044C686B977BF279A /* Pods-YXCarInsurance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXCarInsurance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YXCarInsurance/Pods-YXCarInsurance.debug.xcconfig"; sourceTree = "<group>"; };
@@ -141,9 +162,9 @@
 			children = (
 				40E5FA4520B55F0000BAB556 /* AppDelegate.h */,
 				40E5FA4620B55F0000BAB556 /* AppDelegate.m */,
-				40E5FA8720B56F5500BAB556 /* PrefixHeader.pch */,
 				40ED4BD920B656ED00093728 /* OperationModules */,
 				40ED4BDE20B6573C00093728 /* BasicModules */,
+				40ECC0F720B7A23900218D68 /* Configuration */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -158,6 +179,25 @@
 				40E5FA5420B55F0000BAB556 /* main.m */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40ECC0F720B7A23900218D68 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				40E5FA8720B56F5500BAB556 /* PrefixHeader.pch */,
+				40ECC0F420B79FC000218D68 /* GlobalConst.h */,
+				40ECC0F520B79FC000218D68 /* GlobalConst.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		40ECC0F820B7A6F400218D68 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				40ECC0F920B7A7E500218D68 /* YXCommonUtil.h */,
+				40ECC0FA20B7A7E500218D68 /* YXCommonUtil.m */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		40ED4BD820B6559200093728 /* Resource */ = {
@@ -182,6 +222,8 @@
 		40ED4BDA20B6570900093728 /* 续保提醒 */ = {
 			isa = PBXGroup;
 			children = (
+				40ED4C1920B6C00E00093728 /* InsuranceRemindViewController.h */,
+				40ED4C1A20B6C00E00093728 /* InsuranceRemindViewController.m */,
 			);
 			path = "续保提醒";
 			sourceTree = "<group>";
@@ -189,6 +231,8 @@
 		40ED4BDB20B6570900093728 /* 帮你比价 */ = {
 			isa = PBXGroup;
 			children = (
+				40ED4C1620B6BFEA00093728 /* PriceCompareViewController.h */,
+				40ED4C1720B6BFEA00093728 /* PriceCompareViewController.m */,
 			);
 			path = "帮你比价";
 			sourceTree = "<group>";
@@ -196,6 +240,8 @@
 		40ED4BDC20B6570900093728 /* 汽车保险 */ = {
 			isa = PBXGroup;
 			children = (
+				40ED4C1320B6BFD200093728 /* CarInsuranceViewController.h */,
+				40ED4C1420B6BFD200093728 /* CarInsuranceViewController.m */,
 			);
 			path = "汽车保险";
 			sourceTree = "<group>";
@@ -203,6 +249,8 @@
 		40ED4BDD20B6570900093728 /* 我的 */ = {
 			isa = PBXGroup;
 			children = (
+				40ED4C1C20B6C01B00093728 /* AboutMeViewController.h */,
+				40ED4C1D20B6C01B00093728 /* AboutMeViewController.m */,
 			);
 			path = "我的";
 			sourceTree = "<group>";
@@ -210,6 +258,7 @@
 		40ED4BDE20B6573C00093728 /* BasicModules */ = {
 			isa = PBXGroup;
 			children = (
+				40ECC0F820B7A6F400218D68 /* Utils */,
 				40ED4BF320B6687400093728 /* Category */,
 				40ED4BEF20B665D900093728 /* MBProgress */,
 				40ED4BE720B658F400093728 /* Security */,
@@ -249,6 +298,8 @@
 				40ED4C0E20B6A05700093728 /* YXBaseViewController.m */,
 				40ED4C1020B6A4A000093728 /* YXWebViewController.h */,
 				40ED4C1120B6A4A000093728 /* YXWebViewController.m */,
+				40ED4C1F20B6C15700093728 /* YXTabBarViewController.h */,
+				40ED4C2020B6C15700093728 /* YXTabBarViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -458,15 +509,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40ED4C1820B6BFEA00093728 /* PriceCompareViewController.m in Sources */,
+				40ECC0FB20B7A7E500218D68 /* YXCommonUtil.m in Sources */,
+				40ED4C1520B6BFD200093728 /* CarInsuranceViewController.m in Sources */,
 				40ED4C0C20B669F300093728 /* UINavigationBar+YX.m in Sources */,
+				40ECC0F620B79FC000218D68 /* GlobalConst.m in Sources */,
 				40ED4BEB20B65AAF00093728 /* YXHttpUtil.m in Sources */,
 				40ED4C0920B6695100093728 /* UIView+YX.m in Sources */,
 				40ED4C1220B6A4A000093728 /* YXWebViewController.m in Sources */,
 				40ED4C0220B668D700093728 /* UILabel+YX.m in Sources */,
 				40ED4C0F20B6A05700093728 /* YXBaseViewController.m in Sources */,
+				40ED4C1B20B6C00E00093728 /* InsuranceRemindViewController.m in Sources */,
+				40ED4C2120B6C15700093728 /* YXTabBarViewController.m in Sources */,
 				40E5FA5520B55F0000BAB556 /* main.m in Sources */,
 				40ED4BF220B6678F00093728 /* MBProgressHUD+YX.m in Sources */,
 				40E5FA4720B55F0000BAB556 /* AppDelegate.m in Sources */,
+				40ED4C1E20B6C01B00093728 /* AboutMeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,7 +689,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LSJAJD25U4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/YXCarInsurance/Classes/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YXCarInsurance/Classes/Configuration/PrefixHeader.pch";
 				INFOPLIST_FILE = "YXCarInsurance/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YX.YXCarInsurance;
@@ -648,7 +706,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LSJAJD25U4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/YXCarInsurance/Classes/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YXCarInsurance/Classes/Configuration/PrefixHeader.pch";
 				INFOPLIST_FILE = "YXCarInsurance/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YX.YXCarInsurance;
